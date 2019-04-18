@@ -1,0 +1,132 @@
+*** Logs regarding relevant events ***
+
+04-18 01:53:36.753 1945-1945/? I/Activity Spy: onCreate event fired
+04-18 01:53:36.753 1945-1945/? I/Activity Spy: onStart event fired
+04-18 01:53:36.753 1945-1945/? I/Activity Spy: onResume event fired
+
+04-18 01:54:05.163 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onPause event fired
+04-18 01:54:05.683 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onStop event fired
+04-18 01:54:11.763 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onRestart event fired
+04-18 01:54:11.763 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onStart event fired
+04-18 01:54:11.763 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onResume event fired
+
+04-18 01:54:14.473 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onPause event fired
+04-18 01:54:15.073 1945-1945/edu.washington.bchong.activityspy I/Activity Spy: onStop event fired
+
+04-18 01:58:05.263 2696-2696/edu.washington.bchong.activityspy I/Activity Spy: onDestroy event fired
+04-18 01:58:05.263 2696-2696/edu.washington.bchong.activityspy E/Activity Spy: We’re going down, Captain!
+
+
+*** Full Log ***
+
+04-18 01:58:03.473 2696-2696/? D/dalvikvm: Not late-enabling CheckJNI (already on)
+04-18 01:58:03.493 2696-2702/? D/dalvikvm: Debugger has detached; object registry had 1 entries
+04-18 01:58:03.493 2696-2696/? I/dalvikvm: Could not find method android.view.Window$Callback.onPointerCaptureChanged, referenced from method android.support.v7.view.WindowCallbackWrapper.onPointerCaptureChanged
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to resolve interface method 14074: Landroid/view/Window$Callback;.onPointerCaptureChanged (Z)V
+04-18 01:58:03.493 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+04-18 01:58:03.493 2696-2696/? I/dalvikvm: Could not find method android.view.Window$Callback.onProvideKeyboardShortcuts, referenced from method android.support.v7.view.WindowCallbackWrapper.onProvideKeyboardShortcuts
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to resolve interface method 14076: Landroid/view/Window$Callback;.onProvideKeyboardShortcuts (Ljava/util/List;Landroid/view/Menu;I)V
+04-18 01:58:03.493 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to find class referenced in signature (Landroid/view/SearchEvent;)
+04-18 01:58:03.493 2696-2696/? I/dalvikvm: Could not find method android.view.Window$Callback.onSearchRequested, referenced from method android.support.v7.view.WindowCallbackWrapper.onSearchRequested
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to resolve interface method 14078: Landroid/view/Window$Callback;.onSearchRequested (Landroid/view/SearchEvent;)Z
+04-18 01:58:03.493 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+04-18 01:58:03.493 2696-2696/? I/dalvikvm: Could not find method android.view.Window$Callback.onWindowStartingActionMode, referenced from method android.support.v7.view.WindowCallbackWrapper.onWindowStartingActionMode
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to resolve interface method 14082: Landroid/view/Window$Callback;.onWindowStartingActionMode (Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+04-18 01:58:03.493 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x72 at 0x0002
+04-18 01:58:03.493 2696-2696/? I/dalvikvm: Could not find method android.content.res.TypedArray.getChangingConfigurations, referenced from method android.support.v7.widget.TintTypedArray.getChangingConfigurations
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 818: Landroid/content/res/TypedArray;.getChangingConfigurations ()I
+04-18 01:58:03.493 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
+04-18 01:58:03.493 2696-2696/? I/dalvikvm: Could not find method android.content.res.TypedArray.getType, referenced from method android.support.v7.widget.TintTypedArray.getType
+04-18 01:58:03.493 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 840: Landroid/content/res/TypedArray;.getType (I)I
+04-18 01:58:03.493 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0008
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.createDeviceProtectedStorageContext, referenced from method android.support.v4.content.ContextCompat.createDeviceProtectedStorageContext
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 597: Landroid/content/Context;.createDeviceProtectedStorageContext ()Landroid/content/Context;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getCodeCacheDir, referenced from method android.support.v4.content.ContextCompat.getCodeCacheDir
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 603: Landroid/content/Context;.getCodeCacheDir ()Ljava/io/File;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getColor, referenced from method android.support.v4.content.ContextCompat.getColor
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 604: Landroid/content/Context;.getColor (I)I
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method android.support.v4.content.ContextCompat.getColorStateList
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getDataDir, referenced from method android.support.v4.content.ContextCompat.getDataDir
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 607: Landroid/content/Context;.getDataDir ()Ljava/io/File;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getDrawable, referenced from method android.support.v4.content.ContextCompat.getDrawable
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 608: Landroid/content/Context;.getDrawable (I)Landroid/graphics/drawable/Drawable;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getNoBackupFilesDir, referenced from method android.support.v4.content.ContextCompat.getNoBackupFilesDir
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 616: Landroid/content/Context;.getNoBackupFilesDir ()Ljava/io/File;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.isDeviceProtectedStorage, referenced from method android.support.v4.content.ContextCompat.isDeviceProtectedStorage
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 629: Landroid/content/Context;.isDeviceProtectedStorage ()Z
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.503 2696-2696/? I/dalvikvm: Could not find method android.content.Context.startForegroundService, referenced from method android.support.v4.content.ContextCompat.startForegroundService
+04-18 01:58:03.503 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 644: Landroid/content/Context;.startForegroundService (Landroid/content/Intent;)Landroid/content/ComponentName;
+04-18 01:58:03.503 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.523 2696-2696/? I/dalvikvm: Could not find method android.widget.FrameLayout.startActionModeForChild, referenced from method android.support.v7.widget.ActionBarContainer.startActionModeForChild
+04-18 01:58:03.523 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14560: Landroid/widget/FrameLayout;.startActionModeForChild (Landroid/view/View;Landroid/view/ActionMode$Callback;I)Landroid/view/ActionMode;
+04-18 01:58:03.523 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0002
+04-18 01:58:03.533 2696-2696/? I/dalvikvm: Could not find method android.content.Context.getColorStateList, referenced from method android.support.v7.content.res.AppCompatResources.getColorStateList
+04-18 01:58:03.533 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 605: Landroid/content/Context;.getColorStateList (I)Landroid/content/res/ColorStateList;
+04-18 01:58:03.533 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:03.533 2696-2696/? I/dalvikvm: Could not find method android.content.res.Resources.getDrawable, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawable
+04-18 01:58:03.533 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 781: Landroid/content/res/Resources;.getDrawable (ILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+04-18 01:58:03.533 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
+04-18 01:58:03.533 2696-2696/? I/dalvikvm: Could not find method android.content.res.Resources.getDrawableForDensity, referenced from method android.support.v7.widget.ResourcesWrapper.getDrawableForDensity
+04-18 01:58:03.533 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 783: Landroid/content/res/Resources;.getDrawableForDensity (IILandroid/content/res/Resources$Theme;)Landroid/graphics/drawable/Drawable;
+04-18 01:58:03.533 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0002
+04-18 01:58:03.543 2696-2696/? E/dalvikvm: Could not find class 'android.graphics.drawable.RippleDrawable', referenced from method android.support.v7.widget.AppCompatImageHelper.hasOverlappingRendering
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve instanceof 227 (Landroid/graphics/drawable/RippleDrawable;) in Landroid/support/v7/widget/AppCompatImageHelper;
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x20 at 0x000c
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMaxTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMaxTextSize
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14871: Landroid/widget/TextView;.getAutoSizeMaxTextSize ()I
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeMinTextSize, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeMinTextSize
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14872: Landroid/widget/TextView;.getAutoSizeMinTextSize ()I
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeStepGranularity
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14873: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextAvailableSizes, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextAvailableSizes
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14874: Landroid/widget/TextView;.getAutoSizeTextAvailableSizes ()[I
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeTextType, referenced from method android.support.v7.widget.AppCompatTextView.getAutoSizeTextType
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14875: Landroid/widget/TextView;.getAutoSizeTextType ()I
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0005
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithConfiguration, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithConfiguration
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14921: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithConfiguration (IIII)V
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeUniformWithPresetSizes, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeUniformWithPresetSizes
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14922: Landroid/widget/TextView;.setAutoSizeTextTypeUniformWithPresetSizes ([II)V
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.543 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.setAutoSizeTextTypeWithDefaults, referenced from method android.support.v7.widget.AppCompatTextView.setAutoSizeTextTypeWithDefaults
+04-18 01:58:03.543 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14923: Landroid/widget/TextView;.setAutoSizeTextTypeWithDefaults (I)V
+04-18 01:58:03.543 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6f at 0x0004
+04-18 01:58:03.553 2696-2696/? I/dalvikvm: Could not find method android.widget.TextView.getAutoSizeStepGranularity, referenced from method android.support.v7.widget.AppCompatTextHelper.loadFromAttributes
+04-18 01:58:03.553 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 14873: Landroid/widget/TextView;.getAutoSizeStepGranularity ()I
+04-18 01:58:03.553 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x015d
+04-18 01:58:03.553 2696-2696/? I/dalvikvm: Could not find method android.text.StaticLayout$Builder.obtain, referenced from method android.support.v7.widget.AppCompatTextViewAutoSizeHelper.createStaticLayoutForMeasuring
+04-18 01:58:03.553 2696-2696/? W/dalvikvm: VFY: unable to resolve static method 13334: Landroid/text/StaticLayout$Builder;.obtain (Ljava/lang/CharSequence;IILandroid/text/TextPaint;I)Landroid/text/StaticLayout$Builder;
+04-18 01:58:03.553 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x71 at 0x0014
+04-18 01:58:03.563 2696-2700/? D/dalvikvm: GC_CONCURRENT freed 218K, 12% free 3167K/3572K, paused 3ms+3ms, total 9ms
+04-18 01:58:03.563 2696-2696/? I/Activity Spy: onCreate event fired
+04-18 01:58:03.573 2696-2696/? I/Activity Spy: onStart event fired
+04-18 01:58:03.573 2696-2696/? I/Activity Spy: onResume event fired
+04-18 01:58:03.653 2696-2696/? D/EGL_emulation: eglCreateContext: 0xb81b8080: maj 2 min 0 rcv 2
+04-18 01:58:03.663 2696-2696/? D/EGL_emulation: eglMakeCurrent: 0xb81b8080: ver 2 0
+04-18 01:58:03.663 2696-2696/? E/EGL_emulation: tid 2696: eglSurfaceAttrib(1199): error 0x3009 (EGL_BAD_MATCH)
+04-18 01:58:03.663 2696-2696/? W/HardwareRenderer: Backbuffer cannot be preserved
+04-18 01:58:03.663 2696-2696/? D/OpenGLRenderer: Enabling debug mode 0
+04-18 01:58:03.673 2696-2696/? I/dalvikvm: Could not find method android.view.View.setTooltipText, referenced from method android.support.v7.widget.TooltipCompat.setTooltipText
+04-18 01:58:03.673 2696-2696/? W/dalvikvm: VFY: unable to resolve virtual method 13877: Landroid/view/View;.setTooltipText (Ljava/lang/CharSequence;)V
+04-18 01:58:03.673 2696-2696/? D/dalvikvm: VFY: replacing opcode 0x6e at 0x0006
+04-18 01:58:04.733 2696-2696/edu.washington.bchong.activityspy I/Activity Spy: onPause event fired
+04-18 01:58:05.253 2696-2696/edu.washington.bchong.activityspy D/EGL_emulation: eglMakeCurrent: 0xb81b8080: ver 2 0
+04-18 01:58:05.263 2696-2696/edu.washington.bchong.activityspy I/Activity Spy: onStop event fired
+04-18 01:58:05.263 2696-2696/edu.washington.bchong.activityspy I/Activity Spy: onDestroy event fired
+04-18 01:58:05.263 2696-2696/edu.washington.bchong.activityspy E/Activity Spy: We’re going down, Captain!
+04-18 01:58:05.263 2696-2696/edu.washington.bchong.activityspy D/EGL_emulation: eglMakeCurrent: 0xb81b8080: ver 2 0
